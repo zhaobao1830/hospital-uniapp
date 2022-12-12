@@ -1,0 +1,75 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/Index/Index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path" : "pages/Hospitalvisit/Hospitalvisit/Hospitalvisit",
+			"style" :
+			{
+				"navigationBarTitleText": "院内就诊",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path" : "pages/News/News",
+			"style" :
+			{
+				"navigationBarTitleText": "资讯",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path" : "pages/My/My",
+			"style" :
+			{
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false
+			}
+
+		}
+
+       ],
+		"tabBar": {
+			"selectedColor": "#000000",
+			"backgroundColor": "#ffffff",
+			"color": "#c7c7c7",
+			"list": [
+		    {
+		       "selectedIconPath": "static/image/tab/icon_home_sel.png",
+					 "iconPath": "static/image/tab/icon_home_nor.png",
+		       "pagePath": "pages/Index/Index",
+		       "text": "首页"
+		    },
+				{
+					"selectedIconPath": "static/image/tab/icon_hospitalvisit_sel.png",
+					"iconPath": "static/image/tab/icon_hospitalvisit_nor.png",
+					"pagePath": "pages/Hospitalvisit/Hospitalvisit/Hospitalvisit",
+					"text": "院内就诊"
+				},
+				{"selectedIconPath": "static/image/tab/icon_news_sel.png",
+					"iconPath": "static/image/tab/icon_news_nor.png",
+					"pagePath": "pages/News/News",
+					"text": "资讯"
+				},
+				{
+					"selectedIconPath": "static/image/tab/icon_my_sel.png",
+					"iconPath": "static/image/tab/icon_my_nor.png",
+					"pagePath": "pages/My/My",
+					"text": "我的"
+				}
+			]
+		},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}
